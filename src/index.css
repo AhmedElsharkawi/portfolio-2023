@@ -283,7 +283,7 @@ object-fit: cover;
  }
 
  .footer-left{
-  width: 50%;
+  
   height: auto;
  }
 
@@ -300,8 +300,9 @@ object-fit: cover;
  }
 
  .footer-right{
-  width: 50%;
+  
   display: flex;
+  gap: 10px;
   justify-content: flex-end;
  }
  .footer-icon{
@@ -320,6 +321,21 @@ object-fit: cover;
     font-size: 12px;
    
    }
+}
+@media screen and (max-width : 486px ){
+
+   
+    .footer-container{
+      width: 100%;
+flex-direction: column;
+justify-content: center;
+align-items: start;
+    }
+    .footer-icon{
+      font-size: 15px;
+      margin-top: 7px;
+ 
+    }
 }
 
  /*--------------heroimg---------*/
@@ -391,37 +407,50 @@ object-fit: cover;
 
 
 /*--------------projects --------*/
+.project-sec{
+  overflow: hidden;
+}
 
 
 
 .projects{
+  overflow: hidden;
   width: 100%;
 
 display: flex;
+flex-wrap: wrap;
 
-justify-content: center;
+justify-content: space-around;
 align-items: center;
-  padding-left: 20px;
   margin-top: 30px;
+  padding: 15px;
   background-color:rgba(255, 255 ,255 , .1);
  
 }
 
+.project-right{
+  flex: 1;
+}
 .project-img{
- width: 400px;
+ max-width: 400px;
+ padding: 15px;
   height: auto;
+  flex: 1;
+ 
+
 }
 
 .project-img img{
   width: 100%;
  
   object-fit: cover;
+  border-radius: 15px;
 }
 
 .img-title{
   color: rgb(225, 205, 92);
   margin-bottom: 10px;
-font-size: 2rem;
+font-size: 1.5rem;
 font-weight: 800;
 
 }
@@ -433,8 +462,19 @@ font-weight: 800;
 }
 
 
-
-
+@media screen and (max-width:630px) {
+  .projects{
+  
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 10px;
+   
+  }
+  }
+  .project-right{
+    margin-left: 10px;
+  }
 
 
 
@@ -548,12 +588,14 @@ form input, form textarea{
 
 
 /*--------------About --------*/
-
+.about-sec{
+  overflow: hidden;
+}
 
 .whoAmI{
   width: 100%;
   padding: 30px 20px;
-  
+  overflow: hidden;
 }
 
 .whoAmI h1{
@@ -573,7 +615,7 @@ form input, form textarea{
 @media screen and (max-width : 740px){
   .whoAmI h1{
     color: rgb(225, 205, 92);
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin-bottom: 15px;
   }
   

@@ -1,44 +1,39 @@
 export const projects = [
     {
         id: 1,
-        title: 'Project 1',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.',
-        image:'/portfolio/project1.png',
-        link: 'https://www.google.com'
+        title: 'Static university website,',
+        description:'Responsive design using HTML, CSS, and vanilla JavaScript',
+        image:'/portfolio/university.png',
+        link: 'https://university-sigma-umber.vercel.app/',
+        github:'https://github.com/AhmedElsharkawi/university'
     },
     {
         id: 2,
-        title: 'Project 2',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.',
-        image: '/portfolio/project2.png',
-        link: 'https://www.google.com'
+        title: 'Amazon Clone',
+        description:'Developed using Technologies(ReactJS, Context Api, Stripe and Firebase )',
+        image: '/portfolio/amazon.png',
+        github:'https://github.com/AhmedElsharkawi/amazon'
+
+
     },
     {
         id: 3,
-        title: 'Project 3',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.',
-        image: '/portfolio/project3.png',
-        link: 'https://www.google.com'
+        title:'My Portfolio',
+        description:'Developed using ReactJS, showcasing strong front-end skills',
+        image:'/portfolio/portfolio.png',
+        link:'https://ahmed-gilt.vercel.app/',
+        github:'https://github.com/AhmedElsharkawi/portfolio-2023'
+
     },
     {
         id: 4,
-        title: 'Project 4',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.',
-        image: '/portfolio/project4.png',
-        link: 'https://www.google.com'
-    },
-    {
-        id: 5,
-        title: 'Project 5',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.',
-        image: '/portfolio/project5.png',
-        link: 'https://www.google.com'
-    },
-    {
-        id: 6,
-        title: 'Project 6',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.',
-        image: '/portfolio/project6.png',
-        link: 'https://www.google.com'
-    },
-]
+        title:'Full Stack Real Estate App',
+        description:'Developed using Technologies(ReactJS, Redux Toolkit, Node.js, Express.js, MongoDB and  Implemented Firebase for secure Google popup authentication and Ensured efficient image storage)',
+        image: '/portfolio/realestate.png',
+        link: 'https://real-estate-76ud.onrender.com/',
+        github:'https://github.com/AhmedElsharkawi/real-estate-front',
+        github2: 'https://github.com/AhmedElsharkawi/real-Estate-backendd'
+        
+
+    }]
+ 

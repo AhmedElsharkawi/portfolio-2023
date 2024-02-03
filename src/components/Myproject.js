@@ -1,6 +1,7 @@
 import React from 'react'
 import { projects } from '../Data/Data'
 import Slide from 'react-reveal/Slide'
+
 const Myproject = () => {
     return (
         <div className='project-sec'>
@@ -11,6 +12,22 @@ const Myproject = () => {
                             <div className='project-right' >
                                 <h2 className='img-title'>{proj.title}</h2>
                                 <h5 className='img-desc'>{proj.description}</h5>
+                                
+                                <a href={proj.link} target="_blank" rel='noreferrer' 
+                                style={{color:"#4bbad1",display:'block', marginTop:'10px'}}>
+                                   {proj.link}
+                                </a>
+                                <a style={{color:"#4bbad1",display:'block', marginTop:'10px'}} 
+                                target="_blank" rel='noreferrer'  href={proj.github}>
+                                     {proj.github}
+                                    </a>
+                                <a style={{color:"#4bbad1",display:'block', marginTop:'10px'}}
+                                 target="_blank" rel='noreferrer'  href={proj.github2}>
+                                  {proj.github2}</a>
+
+
+
+
                             </div>
                         </Slide>
                         <Slide right  >

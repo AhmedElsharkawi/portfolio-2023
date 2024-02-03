@@ -12,15 +12,15 @@ const Footer = () => {
         <div className='footer-container'>
             <div className='footer-left'>
                 <div>
-                    <AiOutlineHome size={20} />
-                    <p>Sankt Nikolaji Vej.Copenhagen</p>
+                    <AiOutlineHome size={15} />
+                    <p>Sankt Nikolaj Vej, Copenhagen</p>
                 </div>
                 <div>
-                    <BsTelephone size={20} />
+                    <BsTelephone size={15} />
                     <p>+45-50370009</p>
                 </div>
                 <div>
-                    <MdOutlineMarkEmailRead size={20} />
+                    <MdOutlineMarkEmailRead size={15} />
                     <p>Ahmed.elshrkawy3681@gmail.com</p>
                 </div>
             </div>

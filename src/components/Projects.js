@@ -7,7 +7,7 @@ import Myproject from './Myproject'
 const Projects = () => {
   return (
   <>
-      <Heroimg image={projectimg}  heading= "My Projects ....."    />
+      <Heroimg image={projectimg}  heading= "Samples of My Projects..."    />
      <Myproject />
   </>
   )
