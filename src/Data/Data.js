@@ -21,7 +21,7 @@ export const projects = [
         title:'My Portfolio',
         description:'Developed using ReactJS, showcasing strong front-end skills',
         image:'/portfolio/portfolio.png',
-        link:'portfolio-2023-khaki-iota.vercel.app',
+        link:'https://portfolio-2023-khaki-iota.vercel.app/',
         github:'https://github.com/AhmedElsharkawi/portfolio-2023'
 
     },
