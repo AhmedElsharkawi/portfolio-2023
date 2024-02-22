@@ -35,5 +35,14 @@ export const projects = [
         github2: 'https://github.com/AhmedElsharkawi/real-Estate-backendd'
         
 
-    }]
+    },
+   { id: 5,
+    title:'Ecommerce with strapi for backend',
+    description:'Strapi and Stripe handle everything smoothly. With React.js and Redux Toolkit, browsing is a breeze. Cloudinary ensures speedy image uploads',
+    image:'/portfolio/ecommerce.png',
+    link: 'https://strapi-e-commerce-murex.vercel.app',
+    github:'https://github.com/AhmedElsharkawi/strapi-e-commerce-frontend',
+    github2: 'https://github.com/AhmedElsharkawi/strapi-e-commerce'
+    }
+]
  
