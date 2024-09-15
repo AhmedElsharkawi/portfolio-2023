@@ -24,8 +24,9 @@ const Header = () => {
     <div className='header'>
         <div className={color? "container container-bg" : "container"}>
             <div className='logo'>
-              <Link to='/'>
-              <img src={logo} alt='logo'  />
+              <Link to='/' style={{fontFamily:"Dancing Script"}}>
+              {/* <img src={logo} alt='logo'  /> */}
+              Ahmed.Elsharkawi
               </Link> 
             </div>
             <div className={bar ? "nav-links" : "nav-links active"}>

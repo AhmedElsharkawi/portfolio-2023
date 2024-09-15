@@ -1,12 +1,12 @@
 export const projects = [
-    {
-        id: 1,
-        title: 'Static university website,',
-        description:'Responsive design using HTML, CSS, and vanilla JavaScript',
-        image:'/portfolio/university.png',
-        link: 'https://university-sigma-umber.vercel.app/',
-        github:'https://github.com/AhmedElsharkawi/university'
-    },
+    { id: 1,
+        title:'Bookstore for  Kristoffer J.Andersen ',
+        description:'I have developed a dynamic bookstore website for Danish author Kristoffer Jandersen using the MERN stack—MongoDB, Express.js, React, and Node.js. The site features a user-friendly interface for visitors and a powerful dashboard for the author, allowing easy content management and real-time updates. This full-stack solution enhances the author’s online presence and provides a flexible platform for future growth.',
+        image:'/portfolio/kris.png',
+        link: 'https://kristofferjandersen.dk/',
+        github:'https://github.com/AhmedElsharkawi/kristoffer-frontend',
+        github2: 'https://github.com/AhmedElsharkawi/kris-book'
+        },
     {
         id: 2,
         title: 'Amazon Clone',
@@ -43,6 +43,14 @@ export const projects = [
     link: 'https://strapi-e-commerce-murex.vercel.app',
     github:'https://github.com/AhmedElsharkawi/strapi-e-commerce-frontend',
     github2: 'https://github.com/AhmedElsharkawi/strapi-e-commerce'
+    },
+    {
+        id: 6,
+        title: 'Static university website,',
+        description:'Responsive design using HTML, CSS, and vanilla JavaScript',
+        image:'/portfolio/university.png',
+        link: 'https://university-sigma-umber.vercel.app/',
+        github:'https://github.com/AhmedElsharkawi/university'
     }
 ]
  

@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 *{
   padding: 0;
   margin: 0;
@@ -14,6 +14,10 @@ body{
   
 }
 
+a{
+  text-decoration: none;
+  color:  rgb(225, 205, 92);
+}
 /* header  css  */
 
 .header{
@@ -24,7 +28,7 @@ body{
 }
 
 .header .container{
-  padding: 10px 20px;
+  padding: 30px 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -41,27 +45,34 @@ body{
   transition: .5s;
 }
 
-.header .container .logo{
+/* .header .container .logo{
   width: 200px;
  
   
-}
-.header .container .logo img{
-  width:100%;
+} */
+/* .header .container .logo img{
+  width:75%;
   height: auto;
   object-fit: cover;
   
 
+} */
+
+.header .container .logo a{
+ font-size: 1.8rem;
+ 
+  
+
 }
 
-.header .container .nav-links{
+/* .header .container .nav-links{
   padding-top: 50px; 
   
-}
+} */
 
 .header .container .nav-links a{
 text-decoration: none;
-  font-size: 1.4rem;
+  font-size: 1rem;
   margin: 0 20px;
   color: rgb(225, 205, 92);
  
@@ -76,7 +87,6 @@ text-decoration: none;
 .bar-icon{
   
   display: none;
-  padding-top: 40px;
   cursor: pointer;
   }
 
@@ -120,8 +130,8 @@ text-decoration: none;
 
     .header .container .nav-links a{
       text-decoration: none;
-        font-size:3rem;
-        padding: 1rem 0;
+        font-size:1.5rem;
+        padding: 2rem 0;
         color: rgb(225, 205, 92);
        
         
@@ -129,7 +139,7 @@ text-decoration: none;
       }
       .bar-icon{
   
-        display: initial;
+        display: block;
         }
 
        
@@ -176,7 +186,7 @@ object-fit: cover;
 }
 
 .home .content h1{
-  font-size: 4rem;
+  font-size: 3rem;
   padding: .6rem 0 1.5rem;
   color: rgb(225, 205, 92);
   
@@ -229,7 +239,7 @@ object-fit: cover;
  @media screen and (max-width : 740px) {
 
   .home .content h1{
-    font-size: 3rem;
+    font-size: 1.5rem;
     padding: .6rem 0 1.5rem;
     color: rgb(225, 205, 92);
   
@@ -429,13 +439,13 @@ align-items: center;
 }
 
 .project-right{
-  flex: 1;
+  width: 40%;
 }
 .project-img{
- max-width: 400px;
- padding: 15px;
+ max-width: 500px;
+ padding: 20px;
   height: auto;
-  flex: 1;
+  
  
 
 }
@@ -449,35 +459,44 @@ align-items: center;
 
 .img-title{
   color: rgb(225, 205, 92);
-  margin-bottom: 10px;
+  margin-bottom: 13px;
 font-size: 1.5rem;
-font-weight: 800;
+font-weight: 400;
 
 }
 
 .img-desc{
   color: grey;
   font-size: 1rem;
-  font-weight: 500;
+  font-weight: 400;
+  text-align: justify;
+line-height: 20px;
 }
 
 
-@media screen and (max-width:630px) {
+@media screen and (max-width:930px) {
   .projects{
-  
   display: flex;
   flex-direction: column;
-  align-items: start;
-  padding: 10px;
+  align-items: center;
+  padding: 20px;
+  padding-right: 70px;
    
   }
-  }
+  
   .project-right{
+    width: 100%;
     margin-left: 10px;
+    
   }
+  .project-img{
+    max-width: 100%;
+     margin-left: -30px;
+   
+   }
+ 
 
-
-
+  }
 
 /*--------------skills --------*/
 
@@ -489,7 +508,7 @@ font-weight: 800;
 }
 
 .skills h1{
-  font-size: 3rem;
+  font-size: 2rem;
   text-align: center;
   color:rgb(225, 205, 92);
   padding-top: 40px;
@@ -534,7 +553,7 @@ font-weight: 800;
 @media screen and (max-width : 740px){
 
   .skills h1{
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     text-align: center;
     color:rgb(225, 205, 92);
     padding-top: 40px;
